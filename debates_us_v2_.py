@@ -327,6 +327,6 @@ def run_analysis(debate1_text, debate2_text):
 
     return results
 
-# Asumiendo que tienes los textos de los debates en variables
+# Textos de los debates
 results = run_analysis(debate1_text, debate2_text)
 
