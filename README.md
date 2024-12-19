@@ -15,7 +15,6 @@ Este análisis se realizó con:
 - **Transformers** (BERT y RoBERTa)
 - **PyTorch**
 - **NLTK** (Tokenización y preprocesamiento)
-- **Gensim** (Análisis LDA de temas)
 - **TextBlob** (Polaridad del sentimiento)
 - **Matplotlib y Seaborn** (Visualización)
 - **WordCloud** (Nubes de palabras)
