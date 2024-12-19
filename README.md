@@ -33,7 +33,7 @@ DebatesUSA/
 ├── debate2.txt        # Transcripción del segundo debate (Trump-Harris)
 ├── requirements.txt   # Librerías necesarias para ejecutar el proyecto
 └── README.md          # Archivo README (este archivo)
-
+```
 
 
 ---
@@ -58,21 +58,28 @@ DebatesUSA/
 
 ## 🚀 **Cómo Ejecutar**
 ### **Requisitos Previos**
+
 1. Clonar el repositorio:
-   
+```bash   
    git clone https://github.com/AnaJZP/DebatesUSA.git
-   
+```   
 2. Crear un entorno virtual y activarlo:
+```bash  
 python -m venv venv
 source venv/bin/activate  # En Linux/Mac
 .\venv\Scripts\activate   # En Windows
+```
 
-3. Instalar las dependencias necesarias:
+4. Instalar las dependencias necesarias:
+```bash
 pip install -r requirements.txt
+```
 
-4. Ejecución del Análisis
+6. Ejecución del Análisis
+```bash
 python debates_us_v1.py
 python debates_us_v2_.py
+```
 
 ## 📊 **Resultados Esperados**
 - **Nubes de palabras**: Visualización de las palabras más frecuentes, bigramas y trigramas.
