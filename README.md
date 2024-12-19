@@ -24,12 +24,16 @@ Este análisis se realizó con:
 
 ## 📁 **Estructura del Proyecto**
 
-📦 debates_nlp_2024
-├── debates_us_v1.py            # Análisis inicial: Nubes de palabras, sentimiento y TTR
-├── debates_us_v2_.py           # Análisis avanzado: Embeddings BERT y sentimiento RoBERTa
-├── debate.txt                  # Transcripción del primer debate (Trump-Biden)
-├── debate2.txt                 # Transcripción del segundo debate (Trump-Harris)
-└── README.md                   # Archivo README (este archivo)
+
+```bash
+DebatesUSA/
+├── debates_us_v1.py   # Análisis inicial: Nubes de palabras, sentimiento y TTR
+├── debates_us_v2_.py  # Análisis avanzado: Embeddings BERT y sentimiento RoBERTa
+├── debate.txt         # Transcripción del primer debate (Trump-Biden)
+├── debate2.txt        # Transcripción del segundo debate (Trump-Harris)
+├── requirements.txt   # Librerías necesarias para ejecutar el proyecto
+└── README.md          # Archivo README (este archivo)
+
 
 
 ---
